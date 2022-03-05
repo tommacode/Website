@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  --clr-black: #000000;
+
+  --fw-title: 500;
+  --fw-text: 200;
+}
+
+header {
+  height: 100vh;
+}
+
+.nav-bar {
+  position: fixed;
+  height: 7.5vh;
+  box-shadow: 0px 0px 29px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+}
+
+.logo-nav-bar {
+  padding-top: 2vh;
+}
+
+.nav {
+  list-style: none;
+  display: inline;
+  float: right;
+  padding-top: 2vh;
+}
+
+.nav-button {
+  text-decoration: none;
+  display: inline;
+  padding: 1vw;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: black;
+}
+
+.main-title {
+  font-weight: var(--fw-title);
+  font-size: max(4.5em);
+  text-align: center;
+  padding-top: 35vh;
+}
+
+.sub-text {
+  font-weight: var(--fw-text);
+  font-size: 1em;
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+header {
+  box-shadow: 0px 25px 29px 5px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav {
+    float: none;
+    text-align: center;
+    padding: 0;
+    padding-top: 1vh;
+    margin: 0;
+    display: inline;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .nav-link {
+    font-size: 3vw;
+  }
+  .logo-nav-bar {
+    display: none;
+    padding: 0;
+  }
+}

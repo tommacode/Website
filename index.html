@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      async
+      src="https://api.countapi.xyz/hit/default/3dd44f0b-e9e7-4e71-85f6-5cba72200873?callback=websiteVisits"
+    ></script>
+    <title>You have landed</title>
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/square.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <ul class="nav">
+        <li class="nav-button">
+          <a class="nav-link" href="index.html">HomePage</a>
+        </li>
+        <li class="nav-button">
+          <a class="nav-link" href="specs.html">Computer Specs</a>
+        </li>
+        <li class="nav-button">
+          <a class="nav-link" href="present.html">The Present</a>
+        </li>
+        <li class="nav-button">
+          <a class="nav-link" href="future.html">The Future</a>
+        </li>
+      </ul>
+      <img class="logo-nav-bar" src="/images/logo.jpeg" alt="just my logo" />
+    </div>
+    <header class="landing">
+      <h1 class="main-title">Hello!</h1>
+      <script>
+        var descs = [
+          "A website that a legally defined child wrote in HTML, CSS and a bit of Javascript",
+          "No website builders in sight. Why? Because subscriptions, watermarks and the difficulty moving to a new server",
+          "You can't learn anything from youtube! Wrong, while I wouldn't want my doctor to tell me they learned how to do an operation from LTT, when it commes to computers, learn about computers from computers",
+          "The purpose of this site is as a portfolio, projects and an online place",
+        ];
+        var desc = descs[Math.floor(Math.random() * descs.length)]; // pick random item
+        document.write('<p class="sub-text">' + desc + "<p>");
+      </script>
+    </header>
+    <div class="squares">
+      <div class="square">
+        <h2 class="square-title">Who</h2>
+        <p class="square-text">
+          Just me, Tom. I am the only person running this website, I am the only
+          one that made the website and I have full control over what goes on
+          this website
+        </p>
+      </div>
+      <div class="square">
+        <h2 class="square-title">What</h2>
+        <p class="square-text">
+          This is a website that is hosted either in the cloud or on one of my
+          computers
+        </p>
+      </div>
+      <div class="square">
+        <h2 class="square-title">How</h2>
+        <p class="square-text">
+          With a bit of computer know-how making a website is pretty easy.
+          <br />
+          The skills required are: <br />
+          HTML/CSS <br />
+          Mild cloud skills
+        </p>
+      </div>
+      <div class="square">
+        <h2 class="square-title">Where</h2>
+        <p class="square-text">
+          The UK. This is where I am from so I should have the least latency
+          here also this is going to be where the main traffic for the site is
+          comming from
+        </p>
+      </div>
+      <div class="square">
+        <h2 class="square-title">Why</h2>
+        <p class="square-text">
+          As I mentioned in one of the randomised titles, this allows me to not
+          pay a subscription an have more control. I also find website builders
+          have a focus on sites that have lots of images in them, this makes the
+          website take a while to load and putting more stress on the server
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
