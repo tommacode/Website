@@ -13,8 +13,7 @@ body {
 }
 
 header {
-  padding-top: 7.5vh;
-  height: 50vh;
+  height: 100vh;
   background-color: var(--clr-white);
   color: var(--clr-black);
 }
@@ -60,7 +59,7 @@ header {
   font-weight: var(--fw-title);
   font-size: max(4.5em);
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 35vh;
 }
 
 .sub-text {
