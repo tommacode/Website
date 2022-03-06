@@ -19,6 +19,11 @@ header {
   color: var(--clr-black);
 }
 
+.square {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
 .nav-bar {
   position: fixed;
   height: 7.5vh;
@@ -37,6 +42,7 @@ header {
   display: inline;
   float: right;
   padding-top: 2vh;
+  padding-right: 2vw;
 }
 
 .nav-button {
