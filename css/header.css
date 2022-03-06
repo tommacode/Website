@@ -52,7 +52,6 @@ header {
 
 .nav-link:hover {
   transition: 500ms;
-  opacity: 0.9;
   color: var(--clr-orange);
 }
 
