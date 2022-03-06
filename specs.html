@@ -19,7 +19,12 @@
           <a class="nav-link" href="index.html">HomePage</a>
         </li>
         <li class="nav-button">
-          <a class="nav-link" href="specs.html">Computer Specs</a>
+          <a
+            style="text-decoration: underline"
+            class="nav-link"
+            href="specs.html"
+            >Computer Setups</a
+          >
         </li>
         <li class="nav-button">
           <a class="nav-link" href="present.html">The Present</a>
@@ -28,16 +33,18 @@
           <a class="nav-link" href="future.html">The Future</a>
         </li>
       </ul>
-      <img class="logo-nav-bar" src="/images/logo.jpeg" alt="just my logo" />
+      <a href="index.html"
+        ><img class="logo-nav-bar" src="/images/logo.jpeg" alt="just my logo"
+      /></a>
     </div>
     <header class="landing">
-      <h1 class="main-title">Hello!</h1>
+      <h1 class="main-title">Computer Setups</h1>
       <script>
         var descs = [
-          "A website that a legally defined child wrote in HTML, CSS and a bit of Javascript",
-          "No website builders in sight. Why? Because subscriptions, watermarks and the difficulty moving to a new server",
-          "You can't learn anything from youtube! Wrong, while I wouldn't want my doctor to tell me they learned how to do an operation from LTT, when it commes to computers, learn about computers from computers",
-          "The purpose of this site is as a portfolio, projects and an online place",
+          "This doesn't include cloud setups this is only the hardware that I physically own",
+          "I have come a long way from 2017 where I just had a bad laptop that could bareley run",
+          "These computers are mostly used for gaming coding and general work",
+          "These specs are subject to change as I upgrade",
         ];
         var desc = descs[Math.floor(Math.random() * descs.length)]; // pick random item
         document.write('<p class="sub-text">' + desc + "<p>");

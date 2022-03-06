@@ -45,7 +45,6 @@ header {
 
 .nav-link {
   text-decoration: none;
-  text-decoration: underline;
   font-size: 0.9em;
   color: var(--clr-black);
 }
