@@ -5,13 +5,16 @@
 body {
   font-family: "Poppins", sans-serif;
   --clr-black: #000000;
+  --clr-white: #ffffff;
+  --clr-orange: #ffa600cc;
 
   --fw-title: 500;
   --fw-text: 200;
 }
-
 header {
   height: 100vh;
+  background-color: var(--clr-white);
+  color: var(--clr-black);
 }
 
 .nav-bar {
@@ -20,7 +23,7 @@ header {
   box-shadow: 0px 0px 29px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 100%;
-  background-color: white;
+  background-color: var(--clr-white);
 }
 
 .logo-nav-bar {
@@ -42,8 +45,15 @@ header {
 
 .nav-link {
   text-decoration: none;
+  text-decoration: underline;
   font-size: 0.9em;
-  color: black;
+  color: var(--clr-black);
+}
+
+.nav-link:hover {
+  transition: 500ms;
+  opacity: 0.9;
+  color: var(--clr-orange);
 }
 
 .main-title {
