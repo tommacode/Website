@@ -14,7 +14,7 @@ body {
 
 header {
   padding-top: 7.5vh;
-  height: 50vh;
+  min-height: 50vh;
   background-color: var(--clr-white);
   color: var(--clr-black);
 }
