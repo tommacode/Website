@@ -10,10 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap"
       rel="stylesheet"
     />
+    <title>Tom's Website</title>
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/square.css" />
     <link rel="stylesheet" href="/css/images.css" />
-    <title>Tom's Website</title>
+    <script>
+      $(function () {
+        $("#footer").load("../copyright.html");
+      });
+    </script>
   </head>
   <body>
     <div class="nav-bar">
@@ -33,7 +38,7 @@
           >
         </li>
         <li class="nav-button">
-          <a class="nav-link" href="">Contact</a>
+          <a class="nav-link" href="../construction.html">Contact</a>
         </li>
       </ul>
       <a href="index.html"
@@ -45,27 +50,43 @@
       <p class="sub-text">Using HTML and CSS</p>
     </header>
     <div class="squares">
-        <div class="square">
-          <h2 class="square-title">What You Will Need</h2>
-          <p class="square-text">
-            If you don't have these then you can use the links to fix that
-          </p>
-          <ul class="square-list">
-            <li class="square-text"><Span class="bold">Code Editor: </Span>Visual Studio Code</li>
-            <li class="square-text"><span class="bold">Hosting: </span>Microsoft Azure</li>
-          </ul>
-          <h3 class="square-sub-title">You will also need</h3>
-          <ul class="square-list">
-            <li class="square-text"><span class="bold">A Github account</span></li>
-            <li class="square-text"><span class="bold">Microsoft Azure Account</span></li>
-            <li class="square-text"><span class="bold">Github Desktop</span></li>
-            <li class="square-text"><span class="bold">Visual Studio Code</span></li>
-          </ul>
-        </div>
-        <div class="square">
-            <h2 class="square-title">Why Should I get a Website?</h2>
-            <p class="square-text">One of the best ways to engage with people online is with a website. You could write a portfolio website and host it completely for free. If you are looking for a job, then a website could be a good way to get attention of an employer especially in the it field</p>
-            
-        </div>
+      <div class="square">
+        <h2 class="square-title">What You Will Need</h2>
+        <p class="square-text">
+          If you don't have these then you can use the links to fix that
+        </p>
+        <ul class="square-list">
+          <li class="square-text">
+            <span class="bold">Code Editor: </span>Visual Studio Code
+          </li>
+          <li class="square-text">
+            <span class="bold">Hosting: </span>Microsoft Azure
+          </li>
+        </ul>
+        <h3 class="square-sub-title">You will also need</h3>
+        <ul class="square-list">
+          <li class="square-text">
+            <span class="bold">A Github account</span>
+          </li>
+          <li class="square-text">
+            <span class="bold">Microsoft Azure Account</span>
+          </li>
+          <li class="square-text"><span class="bold">Github Desktop</span></li>
+          <li class="square-text">
+            <span class="bold">Visual Studio Code</span>
+          </li>
+        </ul>
+      </div>
+      <div class="square">
+        <h2 class="square-title">Why Should I get a Website?</h2>
+        <p class="square-text">
+          One of the best ways to engage with people online is with a website.
+          You could write a portfolio website and host it completely for free.
+          If you are looking for a job, then a website could be a good way to
+          get attention of an employer especially in the it field
+        </p>
+      </div>
+    </div>
+    <div id="footer"></div>
   </body>
 </html>

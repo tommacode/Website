@@ -19,6 +19,11 @@
     <link rel="stylesheet" href="/css/landing-header.css" />
     <link rel="stylesheet" href="/css/square.css" />
     <link rel="stylesheet" href="/css/images.css" />
+    <script>
+      $(function () {
+        $("#footer").load("copyright.html");
+      });
+    </script>
   </head>
   <body>
     <div class="nav-bar">
@@ -38,7 +43,7 @@
           <a class="nav-link" href="explainindex.html">Explanations</a>
         </li>
         <li class="nav-button">
-          <a class="nav-link" href="">Contact</a>
+          <a class="nav-link" href="construction.html">Contact</a>
         </li>
       </ul>
       <a href="index.html"
@@ -49,10 +54,10 @@
       <h1 class="main-title">Hello!</h1>
       <script>
         var descs = [
-          "A website that a legally defined child wrote in HTML, CSS and a bit of Javascript",
-          "No website builders in sight. Why? Because subscriptions, watermarks and the difficulty moving to a new server",
-          "You can't learn anything from youtube! Wrong, while I wouldn't want my doctor to tell me they learned how to do an operation from LTT, when it commes to computers, learn about computers from computers",
-          "The purpose of this site is as a portfolio, projects and an online place",
+          "This is just a website",
+          "Imagine using a website builder. I just use notepad",
+          "At least a 10/10 for the site",
+          "Statistically you were going to get this subtitle 25% of the time",
         ];
         var desc = descs[Math.floor(Math.random() * descs.length)]; // pick random item
         document.write('<p class="sub-text">' + desc + "<p>");
@@ -115,5 +120,6 @@
         </p>
       </div>
     </div>
+    <div id="footer"></div>
   </body>
 </html>

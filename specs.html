@@ -10,10 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap"
       rel="stylesheet"
     />
+    <title>Tom's Website</title>
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/square.css" />
     <link rel="stylesheet" href="/css/images.css">
-    <title>Tom's Website</title>
+    <script>
+      $(function () {
+        $("#footer").load("copyright.html");
+      });
+    </script>
   </head>
   <body>
     <div class="nav-bar">
@@ -33,7 +38,7 @@
           <a class="nav-link" href="explainindex.html">Explanations</a>
         </li>
         <li class="nav-button">
-          <a class="nav-link" href="">Contact</a>
+          <a class="nav-link" href="construction.html">Contact</a>
         </li>
       </ul>
       <a href="index.html"
@@ -44,10 +49,10 @@
       <h1 class="main-title">Computer Setups</h1>
       <script>
         var descs = [
-          "This doesn't include cloud setups this is only the hardware that I physically own",
-          "I have come a long way from 2017 where I just had a bad laptop that could bareley run",
-          "These computers are mostly used for gaming coding and general work",
-          "These specs are subject to change as I upgrade",
+          "Why are you here?",
+          "Did you know that 2013 was 9 years ago",
+          "If this website is slow then it is your internet",
+          "Imagine...",
         ];
         var desc = descs[Math.floor(Math.random() * descs.length)]; // pick random item
         document.write('<p class="sub-text">' + desc + "<p>");
@@ -114,5 +119,6 @@
           <li class="square-text"><span class="bold">Opinion: </span>I like it but next time I upgrade I want to get a bigger screen. It fits in my pocket quite well though</li>
         </ul>
       </div>
+      <div id="footer"></div>
   </body>
 </html>
