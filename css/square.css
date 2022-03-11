@@ -64,3 +64,9 @@ body {
 .bold {
   font-weight: var(--fw-title);
 }
+
+.link {
+  text-decoration: none;
+  font-weight: var(--fw-title);
+  color: var(--clr-black);
+}

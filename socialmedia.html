@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="/javascript/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap"
       rel="stylesheet"
     />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tom's Website</title>
-    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/landing-header.css" />
     <link rel="stylesheet" href="/css/square.css" />
     <link rel="stylesheet" href="/css/images.css" />
     <script>
@@ -28,15 +35,10 @@
           <a class="nav-link" href="specs.html">Computer Setups</a>
         </li>
         <li class="nav-button">
-          <a
-            style="text-decoration: underline; color: #5296f0"
-            class="nav-link"
-            href="explainindex.html"
-            >Explanations</a
-          >
+          <a class="nav-link" href="whati.html">What I do</a>
         </li>
         <li class="nav-button">
-          <a class="nav-link" href="construction.html">Contact</a>
+          <a class="nav-link" href="socialmedia.html">Social Media</a>
         </li>
       </ul>
       <a href="index.html"
@@ -44,34 +46,20 @@
       /></a>
     </div>
     <header class="landing">
-      <h1 class="main-title">Explanations</h1>
+      <h1 class="main-title">Oops..</h1>
       <script>
         var descs = [
-          "Basically just tutorials",
-          "The verge are jealous",
-          "Always under construction",
-          "Is this what you wanted?",
+          "This page is under construction",
+          "This is not broken it is a feature",
+          "As the home page said: At least a 10/10 for the site",
+          "Use the navigation to escape",
         ];
         var desc = descs[Math.floor(Math.random() * descs.length)]; // pick random item
         document.write('<p class="sub-text">' + desc + "<p>");
       </script>
     </header>
-    <div class="squares">
-      <a
-        style="text-decoration: none"
-        href="/explainations/website.html"
-        class="link"
-      >
-        <div class="square">
-          <h2 class="square-title">This Website</h2>
-          <p class="square-text">
-            This page documents what I have used to setup this website. You
-            could also lean how to setup your own website from this using the
-            method on this page.
-          </p>
-        </div>
-      </a>
-    </div>
-    <div id="footer"></div>
+    <body>
+      <div id="footer"></div>
+    </body>
   </body>
 </html>

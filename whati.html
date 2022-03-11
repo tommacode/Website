@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="/javascript/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tom's Website</title>
+    <link rel="stylesheet" href="/css/landing-header.css" />
+    <link rel="stylesheet" href="/css/square.css" />
+    <link rel="stylesheet" href="/css/images.css" />
+    <script>
+      $(function () {
+        $("#footer").load("copyright.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <ul class="nav">
+        <li class="nav-button">
+          <a class="nav-link" href="index.html">HomePage</a>
+        </li>
+        <li class="nav-button">
+          <a class="nav-link" href="specs.html">Computer Setups</a>
+        </li>
+        <li class="nav-button">
+          <a
+            style="text-decoration: underline; color: #5296f0"
+            class="nav-link"
+            href="whati.html"
+            >What I do</a
+          >
+        </li>
+        <li class="nav-button">
+          <a class="nav-link" href="socialmedia.html">Social Media</a>
+        </li>
+      </ul>
+      <a href="index.html"
+        ><img class="logo-nav-bar" src="/images/logo.jpeg" alt="just my logo"
+      /></a>
+    </div>
+    <header class="landing">
+      <h1 class="main-title">What I do</h1>
+      <script>
+        var descs = ["About meh", "Bad website design", "VB ftw", "C# > CPP"];
+        var desc = descs[Math.floor(Math.random() * descs.length)]; // pick random item
+        document.write('<p class="sub-text">' + desc + "<p>");
+      </script>
+    </header>
+    <div class="squares">
+      <div class="square">
+        <h2 class="square-title">Coding</h2>
+        <p class="square-text">
+          I have to do this for school and for this website. Is is quite fun to
+          make projects and race to have the best program. The main programming
+          languages that I use are VB and Python. Also coding is great because
+          you can learn how to make computer do thinks like maths making some
+          tasks that might take me 10 minutes to do can be done in under a
+          second
+        </p>
+        <h3 class="square-sub-title">VB</h3>
+        <p class="square-text">
+          I use this for school mostly but I do sometimes make programs at home
+          to practice. I like to use other languages outside of school so that I
+          can expand the languages that I know. I think that VB is a good
+          language to get started on because it is quite simple to make it do
+          things. Also since it is built on the
+          <a href="https://dotnet.microsoft.com/en-us/" class="link"
+            >.NET Framework</a
+          >
+          it is quite similar to C#. This is not me saying that VB and C# are
+          the same language I am just saying that their syntax and some of the
+          principles are similar.
+        </p>
+        <h3 class="square-sub-title">Python</h3>
+        <p class="square-text">
+          This is one of the coolest language that I know. The reasoning behind
+          that statement is because of
+          <a href="https://pyautogui.readthedocs.io/en/latest/" class="link"
+            >pyautogui</a
+          >
+          this allows me to use the keyboard inside of python. So I have made
+          scrips that will send messages and open programs on my computer so
+          that I don't have to. I also like python because it means that I can
+          make projects very fast and get something that is very good working in
+          just a few hours. I have also found that if you can do some things in
+          VB it can be done more easily in Python.
+        </p>
+      </div>
+      <div class="square">
+        <h2 class="square-title">Gaming</h2>
+        <p class="square-text">
+          Given that we have just come out of a global pandemic it is probably
+          fitting for me to talk about gaming.
+        </p>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
