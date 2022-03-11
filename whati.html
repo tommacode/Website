@@ -99,11 +99,66 @@
         </p>
       </div>
       <div class="square">
-        <h2 class="square-title">Gaming</h2>
+        <h2 class="square-title">General Projects</h2>
         <p class="square-text">
-          Given that we have just come out of a global pandemic it is probably
-          fitting for me to talk about gaming.
+          I don't just code I also do other things with my computers such as
+          make this website
         </p>
+        <h3 class="square-sub-title">Some projects are</h3>
+        <ul class="square-list">
+          <li class="square-text">
+            <span class="bold">Minecraft server: </span>
+            <p class="square-text">
+              Anyone that played on one of the many server I hosted will know
+              how bad they were. They were not bad in terms of lag or
+              performance, it was just the arguing in general and I am not
+              talking about certain people it was just everyone on a whole.
+              After all this arguing, the server would just die and then about
+              2-3 days after the server dies I would take it offline and most of
+              the time it would never come back.
+            </p>
+          </li>
+          <li class="square-text">
+            <span class="bold">Pi Hole (DNS): </span>
+            <p class="square-text">
+              In case you don't know
+              <a href="https://pi-hole.net/" class="link">PiHole</a> is a
+              project that was originally intended to be run on a rasberry pi.
+              It is just a DNS service that will block ads for you. The way it
+              does that is by having a block list of advertising servers, if a
+              DNS request is made to resolve one of these domain names it will
+              return a null IP address. I don't own a rasberry pi so the way I
+              deployed it was using a docker container on an ubuntu server. I
+              used ubuntu because it was free on aws and is widely supported so
+              that if I get stuck I can get help very easily. Also, if you use
+              windows then you docker has to virtualise the linux kernel on top
+              of windows. After this I just used the
+              <a href="https://www.youtube.com/watch?v=dH3DdLy574M" class="link"
+                >Network Chuck</a
+              >
+              tutorial and "borrowed" the script. Btw the script is a bit broken
+              in the network chuck video
+            </p>
+          </li>
+          <li class="square-text">
+            <span class="bold">Caching Server: </span>
+            <p class="square-text">
+              If you don't know a caching server is a server that is in the way
+              of the actual download server. This means that if you want to
+              download a file that is installed on the download server then the
+              caching server will check if the file is stored in it's cache. If
+              the file is found in the cache then it will be sent across the
+              local network that is normally faster than your internet and saves
+              you bandwidth. In my deployment I was going to leave it running
+              overnight on my laptop and then in the morining I would go on my
+              computer and download the games in the cache. I used a program
+              that I found on github to download games to the cache. I no longer
+              use this because the server was not working and giving me really
+              slow download speeds that meant it was a similar speed to just
+              download the file normally.
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
     <div id="footer"></div>
