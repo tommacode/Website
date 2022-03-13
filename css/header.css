@@ -24,6 +24,20 @@ header {
   padding-bottom: 1vh;
 }
 
+.nav-link {
+  background: linear-gradient(to top, #ffffff, #ffffff),
+    linear-gradient(to top, #5296f0, #5296f0);
+  background-size: 100% 0.1em, 0 0.15em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-size: 0 0.1em, 100% 0.15em;
+}
+
 .nav-bar {
   position: fixed;
   height: 7.5vh;
@@ -102,4 +116,8 @@ header {
     display: none;
     padding: 0;
   }
+}
+
+.bold {
+  font-weight: var(--fw-title);
 }

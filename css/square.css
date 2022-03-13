@@ -4,14 +4,17 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  --clr-black: #000000;
+  --clr-darkgrey: #1c1d1f;
+  --clr-grey: #202124;
+  --clr-white: #fffdf7;
+  --clr-orange: #5296f0;
 
   --fw-title: 500;
   --fw-text: 200;
+  background-color: white;
 }
 
 .squares {
-  background-color: white;
   text-align: center;
   justify-content: space-around;
   align-items: center;
@@ -19,7 +22,7 @@ body {
 }
 
 .square {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   margin-left: 0.5vw;
   margin-right: 0.5vw;
   color: var(--clr-black);
@@ -69,4 +72,8 @@ body {
   text-decoration: none;
   font-weight: var(--fw-title);
   color: var(--clr-black);
+}
+
+.dark-squares {
+  background-color: black;
 }
